@@ -30,6 +30,13 @@
   * 6510451034
   * หมู่เรียน 200
   * ชั้นปี 3
+
+## Feature ที่รับผิดชอบ
+@Chaithat Chattranukul Feat: Review Course 
+@Zharut jongsatitpaiboon Feat: Account Management , Examination Schedule
+@Apinya Tanapratheepkul Feat: Examination Schedule , Account Management , Examination Schedule
+@Thanapoom Chaisena Feat: Examination Schedule , Account Management
+
 <br></br>
 ## การทำงาน
   - เตรียมไฟล์ .env ของ front และ back ให้พร้อมก่อนเริ่มทำงาน
