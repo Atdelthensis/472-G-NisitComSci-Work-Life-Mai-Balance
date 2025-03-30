@@ -5,7 +5,6 @@ import courseController from "./controllers/CourseController";
 import reviewController from "./controllers/ReviewController";
 import enrollmentController from "./controllers/EnrollmentController";
 import examController from "./controllers/ExamController"
-import authController from "./controllers/AuthController";
 import teachController from "./controllers/TeachController";
 import sectionFormController from "./controllers/SectionFormController";
 
@@ -21,7 +20,6 @@ app.use(
         { name: "Course", description: "Course endpoint" },
         { name: "Review", description: "Review endpoint" },
         { name: "Enrollment", description: "Enrollment endpoint" },
-        { name: "Auth", description: "Auth endpoint" },
         { name: "Teach", description: "Teach endpoint" },
         { name: "sectionForm", description: "sectionForm endpoint"},
       ],
@@ -34,7 +32,6 @@ app.use(courseController);
 app.use(reviewController);
 app.use(enrollmentController);
 app.use(examController);
-app.use(authController);
 app.use(teachController);
 app.use(sectionFormController)
 
