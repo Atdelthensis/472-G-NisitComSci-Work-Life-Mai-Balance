@@ -35,7 +35,7 @@ app.use(examController);
 app.use(teachController);
 app.use(sectionFormController)
 
-app.listen(3000);
+app.listen(4000);
 
 console.log(
   `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`
